@@ -1,0 +1,17 @@
+exports.abbreviations = require('@ifct2017/abbreviations');
+exports.about = require('@ifct2017/about');
+exports.carbohydrates = require('@ifct2017/carbohydrates');
+exports.columns = require('@ifct2017/columns');
+exports.compositingCentres = require('@ifct2017/compositingcentres');
+exports.contents = require('@ifct2017/contents');
+exports.descriptions = require('@ifct2017/descriptions');
+exports.energies = require('@ifct2017/energies');
+exports.frequencyDistribution = require('@ifct2017/frequencydistribution');
+exports.groups = require('@ifct2017/groups');
+exports.jonesFactors = require('@ifct2017/jonesfactors');
+exports.languages = require('@ifct2017/languages');
+exports.methods = require('@ifct2017/methods');
+exports.nutrients = require('@ifct2017/nutrients');
+exports.pictures = require('@ifct2017/pictures');
+exports.regions = require('@ifct2017/regions');
+exports.samplingUnits = require('@ifct2017/samplingunits');
