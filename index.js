@@ -1,8 +1,10 @@
 exports.abbreviations = require('@ifct2017/abbreviations');
 exports.about = require('@ifct2017/about');
 exports.carbohydrates = require('@ifct2017/carbohydrates');
+exports.codes = require('@ifct2017/codes');
 exports.columns = require('@ifct2017/columns');
 exports.compositingCentres = require('@ifct2017/compositingcentres');
+exports.compositions = require('@ifct2017/compositions');
 exports.contents = require('@ifct2017/contents');
 exports.descriptions = require('@ifct2017/descriptions');
 exports.energies = require('@ifct2017/energies');
