@@ -2,7 +2,7 @@
 
 [![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
 
-Kit for [Indian Food Composition Tables 2017].
+[Kit] for [Indian Food Composition Tables 2017].
 
 ```javascript
 const ifct2017 = require('ifct2017');
@@ -34,3 +34,4 @@ Methods:
 
 
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
+[Kit]: https://en.wikipedia.org/wiki/Kit_(of_components)
