@@ -1,7 +1,3 @@
-# ifct2017
-
-[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
-
 [Kit] for [Indian Food Composition Tables 2017].
 
 ```javascript
@@ -33,5 +29,11 @@ Methods:
 - [samplingUnits](https://www.npmjs.com/package/@ifct2017/samplingunits)
 
 
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+> Food composition values were measured by [National Institute of Nutrition, Hyderabad].
+
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [Kit]: https://en.wikipedia.org/wiki/Kit_(of_components)
+[ifct2017.github.io]: https://ifct2017.github.io
+[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
