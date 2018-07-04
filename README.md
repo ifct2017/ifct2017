@@ -28,6 +28,9 @@ Methods:
 - [regions](https://www.npmjs.com/package/@ifct2017/regions)
 - [samplingUnits](https://www.npmjs.com/package/@ifct2017/samplingunits)
 
+> NOTE: `.pictures(<code>) -> null` as it is not included locally.<br>
+> Use `.pictures.unpkg(<code>)`, or `.pictures.jsdelivr(<code>)` instead.
+
 
 [![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
 > You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
