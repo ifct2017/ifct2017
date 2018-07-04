@@ -1,3 +1,21 @@
+const path = require('path');
+
+
+function pictures(cod) {
+  return null;
+};
+function unpkg(cod) {
+  if(cod[0]>='M' && cod[0]<'P') return null;
+  return `https://unpkg.com/@ifct2017/pictures/assets/${cod}.jpeg`;
+};
+function jsdelivr(cod) {
+  if(cod[0]>='M' && cod[0]<'P') return null;
+  return `https://cdn.jsdelivr.net/npm/@ifct2017/pictures/assets/${cod}.jpeg`;
+};
+
+
+pictures.unpkg = unpkg;
+pictures.jsdelivr = jsdelivr;
 exports.abbreviations = require('@ifct2017/abbreviations');
 exports.about = require('@ifct2017/about');
 exports.carbohydrates = require('@ifct2017/carbohydrates');
@@ -14,6 +32,6 @@ exports.jonesFactors = require('@ifct2017/jonesfactors');
 exports.languages = require('@ifct2017/languages');
 exports.methods = require('@ifct2017/methods');
 exports.nutrients = require('@ifct2017/nutrients');
-exports.pictures = require('@ifct2017/pictures');
 exports.regions = require('@ifct2017/regions');
 exports.samplingUnits = require('@ifct2017/samplingunits');
+exports.pictures = pictures;
