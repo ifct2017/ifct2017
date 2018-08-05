@@ -1,6 +1,6 @@
 {
   "name": "ifct2017",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Kit for Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
@@ -38,11 +38,14 @@
     "@ifct2017/energies": "^1.0.2",
     "@ifct2017/frequencydistribution": "^1.0.2",
     "@ifct2017/groups": "^1.0.2",
+    "@ifct2017/hierarchy": "^1.1.1",
+    "@ifct2017/intakes": "^1.1.1",
     "@ifct2017/jonesfactors": "^1.0.2",
     "@ifct2017/languages": "^1.0.2",
     "@ifct2017/methods": "^1.0.6",
     "@ifct2017/nutrients": "^1.0.7",
     "@ifct2017/regions": "^1.0.2",
+    "@ifct2017/representations": "^1.0.2",
     "@ifct2017/samplingunits": "^1.0.2"
   }
 }

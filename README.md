@@ -20,12 +20,15 @@ Methods:
 - [energies](https://www.npmjs.com/package/@ifct2017/energies)
 - [frequencyDistribution](https://www.npmjs.com/package/@ifct2017/frequencydistribution)
 - [groups](https://www.npmjs.com/package/@ifct2017/groups)
+- [hierarchy](https://www.npmjs.com/package/@ifct2017/hierarchy)
+- [intakes](https://www.npmjs.com/package/@ifct2017/intakes)
 - [jonesFactors](https://www.npmjs.com/package/@ifct2017/jonesfactors)
 - [languages](https://www.npmjs.com/package/@ifct2017/languages)
 - [methods](https://www.npmjs.com/package/@ifct2017/methods)
 - [nutrients](https://www.npmjs.com/package/@ifct2017/nutrients)
 - [pictures](https://www.npmjs.com/package/@ifct2017/pictures)
 - [regions](https://www.npmjs.com/package/@ifct2017/regions)
+- [representations](https://www.npmjs.com/package/@ifct2017/representations)
 - [samplingUnits](https://www.npmjs.com/package/@ifct2017/samplingunits)
 
 > NOTE: `.pictures(<code>) -> null` as it is not included locally.<br>
