@@ -1,4 +1,5 @@
 [Kit] for [Indian Food Composition Tables 2017].
+> CDN for corpus: [unpkg], [jsDelivr].
 
 ```javascript
 const ifct2017 = require('ifct2017');
@@ -41,5 +42,7 @@ Methods:
 
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [Kit]: https://en.wikipedia.org/wiki/Kit_(of_components)
+[unpkg]: https://unpkg.com/ifct2017/corpus.min.js
+[jsDelivr]: https://cdn.jsdelivr.net/npm/ifct2017/corpus.min.js
 [ifct2017.github.io]: https://ifct2017.github.io
 [National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
