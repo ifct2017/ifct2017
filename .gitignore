@@ -1,3 +1,6 @@
+# built files
+*.min.js
+
 # Logs
 logs
 *.log
