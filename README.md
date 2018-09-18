@@ -36,7 +36,7 @@ Methods:
 > Use `.pictures.unpkg(<code>)`, or `.pictures.jsdelivr(<code>)` instead.
 
 
-[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+[![Merferry](http://ninindia.org/images/ifct_2017.png)](https://merferry.github.io)
 > You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].
 
