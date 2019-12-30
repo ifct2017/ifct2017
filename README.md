@@ -45,4 +45,4 @@ Methods:
 [unpkg]: https://unpkg.com/ifct2017/corpus.min.js
 [jsDelivr]: https://cdn.jsdelivr.net/npm/ifct2017/corpus.min.js
 [ifct2017.github.io]: https://ifct2017.github.io
-[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[National Institute of Nutrition, Hyderabad]: https://www.nin.res.in/
