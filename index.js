@@ -1,6 +1,3 @@
-const path = require('path');
-
-
 function pictures(cod) {
   return null;
 };
