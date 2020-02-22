@@ -3,9 +3,44 @@
 
 ```javascript
 const ifct2017 = require('ifct2017');
-// ifct2017.abbreviations(<query>)
-// ifct2017.about(<query>)
-// ...
+
+async function main() {
+await ifct2017.compositions.load();
+ifct2017.columns.load();
+ifct2017.intakes.load();
+/* load corpus first */
+
+ifct2017.compositions('pineapple');
+ifct2017.compositions('ananas comosus');
+// [ { code: 'E053',
+//     name: 'Pineapple',
+//     scie: 'Ananas comosus',
+//     lang: 'A. Ahnaros; B. Anarasa; G. Anenas; H. Ananas; Kan. Ananas; Kash. Punchitipul; Kh. Soh trun; Kon. Anas; Mal. Kayirha chakka; M. Kihom Ananas; O. Sapuri; P. Ananas; Tam. Annasi pazham; Tel. Anasa pandu; U. Ananas.',
+//     ... } ]
+
+ifct2017.columns('vitamin c');
+ifct2017.columns('c-vitamin');
+// [ { code: 'vitc',
+//     name: 'Total Ascorbic acid',
+//     tags: 'ascorbate water soluble vitamin c vitamin c essential' } ]
+
+ifct2017.pictures.unpkg('A001');
+// https://unpkg.com/@ifct2017/pictures/assets/A001.jpeg
+
+ifct2017.intakes('his');
+ifct2017.intakes('Histidine');
+// { whorda: -0.01,
+//   usear: null,
+//   usrdam: -0.014,
+//   usrdaf: null,
+//   euprim: null,
+//   euprif: null,
+//   ulus: null,
+//   uleu: null,
+//   uljapan: null }
+/* negative value indicates amount per kg of body weight */
+}
+main();
 ```
 
 ### reference
@@ -35,11 +70,11 @@ const ifct2017 = require('ifct2017');
 | [about]                 | On the history of malnutrition, current status, and data details.
 | [contents]              | Contents in the original book.
 
-<br>
-<br>
-
 > NOTE: `.pictures(<code>) -> null` as it is not included locally.<br>
 > Use `.pictures.unpkg(<code>)`, or `.pictures.jsdelivr(<code>)` instead.
+
+<br>
+<br>
 
 [![Merferry](http://ifct2017.com/ifct_2017.jpg)](https://merferry.github.io)
 > You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
