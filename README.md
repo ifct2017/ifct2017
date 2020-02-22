@@ -5,9 +5,6 @@ ask about composition of 528 key foods in India here: [ifct2017.github.io].
 Shown below is a text-query javascript API for search information through these tables. However,
 you may also add these to a database for more control over the query.
 
-> A corpus consisting of columns, hierarchy, intakes, methods, nutrients,
-> representations is available for use with UI: [unpkg], [jsDelivr].
-
 ```javascript
 const ifct2017 = require('ifct2017');
 
@@ -79,6 +76,9 @@ main();
 
 > NOTE: `.pictures(<code>) -> null` as it is not included locally.<br>
 > Use `.pictures.unpkg(<code>)`, or `.pictures.jsdelivr(<code>)` instead.
+
+> A corpus consisting of columns, hierarchy, intakes, methods, nutrients,
+> representations is available for use with UI: [unpkg], [jsDelivr].
 
 <br>
 <br>
