@@ -12,28 +12,28 @@ const ifct2017 = require('ifct2017');
 
 | Name                    | Action
 |-------------------------|-------
-| [abbreviations]         | Full forms of abbreviations used in the original book.
-| [about]                 | On the history of malnutrition, current status, and data details.
-| [carbohydrates]         | Conversion of carbohydrate weights to monosaccharide equivalents.
-| [codes]                 | Uniquely identifiable codes for each food.
-| [columns]               | Codes and names of nutrients, and its components.
-| [compositingCentres]    | Regional compositing centres and sample size of each region.
 | [compositions]          | Detailed nutrient composition of 528 key foods in India.
-| [contents]              | Contents in the original book.
-| [descriptions]          | Names of each food in local languages, including scientific name.
-| [energies]              | Metabolizable energy conversion factors.
-| [frequencyDistribution] | Frequency distribution of States/UTs for fixing the number of districts to be sampled.
-| [groups]                | Categorization of food by their common names.
-| [hierarchy]             | Tree-like hierarchy of nutrients, and its components.
+| [columns]               | Codes and names of nutrients, and its components.
+| [pictures]              | Single representative photo of each foods (JPEG, 307x173).
 | [intakes]               | Recommended daily intakes of nutrients.
-| [jonesFactors]          | Jones factors for conversion of nitrogen to protein.
+| [hierarchy]             | Tree-like hierarchy of nutrients, and its components.
+| [representations]       | Representations of columns (as factors and units).
+| [codes]                 | Uniquely identifiable codes for each food.
+| [groups]                | Categorization of food by their common names.
+| [descriptions]          | Names of each food in local languages, including scientific name.
+| [abbreviations]         | Full forms of abbreviations used in the original book.
 | [languages]             | Full form of language abbreviations.
 | [methods]               | Analytical methods of nutrient and bioactive components.
+| [energies]              | Metabolizable energy conversion factors.
 | [nutrients]             | Detailed description of various nutrients, and its components.
-| [pictures]              | Single representative photo of each foods (JPEG, 307x173).
+| [jonesFactors]          | Jones factors for conversion of nitrogen to protein.
+| [carbohydrates]         | Conversion of carbohydrate weights to monosaccharide equivalents.
 | [regions]               | Categorization of the States/UTs into six different regions.
-| [representations]       | Representations of columns (as factors and units).
 | [samplingUnits]         | Number of primary sampling units in each State/UT.
+| [compositingCentres]    | Regional compositing centres and sample size of each region.
+| [frequencyDistribution] | Frequency distribution of States/UTs for fixing the number of districts to be sampled.
+| [about]                 | On the history of malnutrition, current status, and data details.
+| [contents]              | Contents in the original book.
 
 <br>
 <br>

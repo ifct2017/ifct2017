@@ -1,6 +1,6 @@
 {
   "name": "ifct2017",
-  "version": "1.5.12",
+  "version": "1.5.13",
   "description": "Kit for Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
