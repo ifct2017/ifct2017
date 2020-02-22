@@ -1,4 +1,10 @@
-[Kit] for [Indian Food Composition Tables 2017].
+The Indian Food Composition tables ([IFCT 2017]) provides nutritional values for 528 key foods.
+Food composition values were measured by [National Institute of Nutrition, Hyderabad]. You can
+ask about composition of 528 key foods in India here: [ifct2017.github.io].
+
+Shown below is a text-query javascript API for search information through these tables. However,
+you may also add these to a database for more control over the query. A corpus consisting of
+columns, hierarchy, intakes, methods, nutrients, representations is available for use with UI.
 > CDN for corpus: [unpkg], [jsDelivr].
 
 ```javascript
@@ -77,8 +83,6 @@ main();
 <br>
 
 [![Merferry](http://ifct2017.com/ifct_2017.jpg)](https://merferry.github.io)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
-> Food composition values were measured by [National Institute of Nutrition, Hyderabad].
 
 [abbreviations]: https://www.npmjs.com/package/@ifct2017/abbreviations
 [about]: https://www.npmjs.com/package/@ifct2017/about
@@ -102,8 +106,7 @@ main();
 [regions]: https://www.npmjs.com/package/@ifct2017/regions
 [representations]: https://www.npmjs.com/package/@ifct2017/representations
 [samplingUnits]: https://www.npmjs.com/package/@ifct2017/samplingunits
-[Indian Food Composition Tables 2017]: http://ifct2017.com/
-[Kit]: https://en.wikipedia.org/wiki/Kit_(of_components)
+[IFCT 2017]: http://ifct2017.com/
 [unpkg]: https://unpkg.com/ifct2017/corpus.min.js
 [jsDelivr]: https://cdn.jsdelivr.net/npm/ifct2017/corpus.min.js
 [ifct2017.github.io]: https://ifct2017.github.io
