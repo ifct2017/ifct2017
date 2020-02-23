@@ -49,7 +49,7 @@ main();
 
 ### reference
 
-| Name                    | Action
+| Method                  | Action
 |-------------------------|-------
 | [compositions]          | Detailed nutrient composition of 528 key foods in India.
 | [columns]               | Codes and names of nutrients, and its components.
