@@ -1,9 +1,11 @@
 The Indian Food Composition tables ([IFCT 2017]) provides nutritional values for 528 key foods.
-Food composition values were measured by [National Institute of Nutrition, Hyderabad]. You can
-ask about composition of 528 key foods in India here: [ifct2017.github.io].
-
-Shown below is a text-query javascript API for search information through these tables. However,
+Food composition values were measured by [National Institute of Nutrition, Hyderabad]. Shown
+below is a text-query javascript API for search information through these tables. However,
 you may also add these to a database for more control over the query.
+
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const ifct2017 = require('ifct2017');
