@@ -13,8 +13,6 @@ function jsdelivr(cod) {
 }
 
 
-pictures.unpkg = unpkg;
-pictures.jsdelivr = jsdelivr;
 exports.abbreviations = require('@ifct2017/abbreviations');
 exports.about = require('@ifct2017/about');
 exports.carbohydrates = require('@ifct2017/carbohydrates');
@@ -36,4 +34,6 @@ exports.nutrients = require('@ifct2017/nutrients');
 exports.regions = require('@ifct2017/regions');
 exports.representations = require('@ifct2017/representations');
 exports.samplingUnits = require('@ifct2017/samplingunits');
+pictures.unpkg = unpkg;
+pictures.jsdelivr = jsdelivr;
 exports.pictures = pictures;

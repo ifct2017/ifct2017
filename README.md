@@ -10,9 +10,7 @@ const ifct2017 = require('ifct2017');
 
 async function main() {
 await ifct2017.compositions.load();
-ifct2017.columns.load();
-ifct2017.intakes.load();
-/* load corpus first */
+/// Load corpus first
 
 ifct2017.compositions('pineapple');
 ifct2017.compositions('ananas comosus');
@@ -34,20 +32,24 @@ ifct2017.pictures.unpkg('A001');
 ifct2017.intakes('his');
 ifct2017.intakes('Histidine');
 // { whorda: -0.01,
-//   usear: null,
+//   usear: NaN,
 //   usrdam: -0.014,
-//   usrdaf: null,
-//   euprim: null,
-//   euprif: null,
-//   ulus: null,
-//   uleu: null,
-//   uljapan: null }
-/* negative value indicates amount per kg of body weight */
+//   usrdaf: NaN,
+//   euprim: NaN,
+//   euprif: NaN,
+//   ulus: NaN,
+//   uleu: NaN,
+//   uljapan: NaN }
+/// Negative value indicates amount per kg of body weight.
 }
 main();
 ```
 
-### reference
+<br>
+<br>
+
+
+### Reference
 
 | Method                  | Action
 |-------------------------|-------
@@ -83,7 +85,7 @@ main();
 <br>
 <br>
 
-[![nodef](http://ifct2017.com/ifct_2017.jpg)](https://nodef.github.io)
+[![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)
 
 [abbreviations]: https://www.npmjs.com/package/@ifct2017/abbreviations
 [about]: https://www.npmjs.com/package/@ifct2017/about
