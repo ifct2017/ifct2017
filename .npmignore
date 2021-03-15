@@ -1,2 +1,8 @@
-# build scripts
+# Data
+index.txt
+
+# Build
+.travis.yml
 build.js
+corpus.js
+tests.js
