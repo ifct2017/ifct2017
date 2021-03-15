@@ -33,15 +33,16 @@ ifct2017.pictures.unpkg('A001');
 
 ifct2017.intakes('his');
 ifct2017.intakes('Histidine');
-// { whorda: -0.01,
-//   usear: NaN,
-//   usrdam: -0.014,
-//   usrdaf: NaN,
-//   euprim: NaN,
-//   euprif: NaN,
-//   ulus: NaN,
-//   uleu: NaN,
-//   uljapan: NaN }
+// [ { code: 'his',
+//     whorda: -0.01,
+//     usear: NaN,
+//     usrdam: -0.014,
+//     usrdaf: NaN,
+//     euprim: NaN,
+//     euprif: NaN,
+//     ulus: NaN,
+//     uleu: NaN,
+//     uljapan: NaN } ]
 /// Negative value indicates amount per kg of body weight.
 }
 main();
