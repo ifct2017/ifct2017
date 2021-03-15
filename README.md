@@ -10,9 +10,11 @@ also add these to a database for more control over the query.
 ```javascript
 const ifct2017 = require('ifct2017');
 
+
 async function main() {
 await ifct2017.compositions.load();
 /// Load corpus first
+
 
 ifct2017.compositions('pineapple');
 ifct2017.compositions('ananas comosus');
@@ -79,10 +81,10 @@ main();
 | [about]                 | On the history of malnutrition, current status, and data details.
 | [contents]              | Contents in the original book.
 
-> NOTE: `.pictures(<code>) -> null` as it is not included locally.<br>
-> Use `.pictures.unpkg(<code>)`, or `.pictures.jsdelivr(<code>)` instead.
+> NOTE: `.pictures(code) -> null` as it is not included locally.<br>
+> Use `.pictures.unpkg(code)`, or `.pictures.jsDelivr(code)` instead.
 
-> A corpus consisting of columns, hierarchy, intakes, methods, nutrients,
+> A corpus consisting of columns, hierarchy, intakes, methods, nutrients,<br>
 > representations is available for use with UI: [unpkg], [jsDelivr].
 
 <br>
