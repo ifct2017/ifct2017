@@ -1,6 +1,6 @@
 {
   "name": "ifct2017",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "The Indian Food Composition tables (IFCT 2017) provides nutritional values for 528 key foods.",
   "main": "index.js",
   "scripts": {
@@ -60,5 +60,8 @@
     "@ifct2017/regions": "^2.0.4",
     "@ifct2017/representations": "^2.0.7",
     "@ifct2017/samplingunits": "^2.0.4"
+  },
+  "devDependencies": {
+    "extra-build": "^1.3.31"
   }
 }
