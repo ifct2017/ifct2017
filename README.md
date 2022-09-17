@@ -95,6 +95,7 @@ main();
 
 [![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)<br>
 [![ORG](https://img.shields.io/badge/org-ifct2017-green?logo=Org)](https://ifct2017.github.io)
+[![DOI](https://zenodo.org/badge/133156402.svg)](https://zenodo.org/badge/latestdoi/133156402)
 
 [abbreviations]: https://www.npmjs.com/package/@ifct2017/abbreviations
 [about]: https://www.npmjs.com/package/@ifct2017/about
