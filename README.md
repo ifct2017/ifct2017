@@ -3,7 +3,7 @@ The Indian Food Composition tables ([IFCT 2017]) provides nutritional values for
 📜 [Files](https://unpkg.com/ifct2017/).
 
 Food composition values were measured by [National Institute of Nutrition, Hyderabad]. Shown
-below is a text-query javascript API for search information through these tables. You may
+below is a text-query JavaScript API for search information through these tables. You may
 also add these to a database for more control over the query.
 
 > Online database: [ifct2017.github.io].

@@ -1,5 +1,10 @@
-# built files
+# Generated files
+.build/
+.docs/
+coverage/
+*.map
 *.min.js
+example.js
 
 # Logs
 logs
