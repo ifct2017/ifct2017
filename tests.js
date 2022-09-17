@@ -1,4 +1,4 @@
-const assert = require('assert');
+const assert   = require('assert');
 const ifct2017 = require('./');
 
 
